@@ -6,8 +6,7 @@
                                 }
                                 <div class="table-wrapper-overflow">
                                     <table id="tableLandlordHome"
-                                           class="table table-condensed table-striped table-hover table-bold-header"
-                                           @*class="table bootstrap-table table-condensed table-striped table-hover table-bold-header"*@
+                                           class="table bootstrap-table table-condensed table-striped table-hover table-bold-header"
                                            data-toolbar="#toolbar"
                                            data-row-style="importantHighlight">
                                         <thead>
@@ -24,7 +23,7 @@
                                                     <div style="position: relative">
                                                         <span>Average<br />bill</span>
                                                         <br />
-                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Average bill" data-content="bill">
+                                                        <a tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Average bill" data-content="bill">
                                                             <span class="glyphicon glyphicon-question-sign info-popover"></span>
                                                         </a>
                                                     </div>
@@ -34,7 +33,7 @@
                                                         <br />
                                                         <span>Currently<br />billed to</span>
                                                         <br />
-                                                        <a @*style="position: absolute; top: 25%; right: 7px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Currently billed to" data-content="Indicates the">
+                                                        <a tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Currently billed to" data-content="Indicates the">
                                                             <span class="glyphicon glyphicon-question-sign info-popover"></span>
                                                         </a>
                                                     </div>
@@ -43,7 +42,7 @@
                                                     <div style="position: relative">
                                                         <span>View<br />bill</span>
                                                         <br />
-                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="View bill" data-content="Select">
+                                                        <a tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="View bill" data-content="Select">
                                                             <span class="glyphicon glyphicon-question-sign info-popover"></span>
                                                         </a>
                                                     </div>
@@ -53,7 +52,7 @@
                                                     <div style="position: relative">
                                                         <span>Account<br />status</span>
                                                         <br />
-                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Account status" data-content="A description ">
+                                                        <a tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Account status" data-content="A description ">
                                                             <span class="glyphicon glyphicon-question-sign info-popover"></span>
                                                         </a>
                                                     </div>
@@ -63,7 +62,7 @@
                                                     <div style="position: relative">
                                                         <span>Meter<br />type/status</span>
                                                         <br />
-                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Meter type/status" data-content="Shows meter type.">
+                                                        <a tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Meter type/status" data-content="Shows meter type.">
                                                             <span class="glyphicon glyphicon-question-sign info-popover"></span>
                                                         </a>
                                                     </div>
