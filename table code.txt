@@ -1,0 +1,85 @@
+@{
+                                    decimal width = 0;
+
+                                    //total width(arbitrary) / number of columns
+                                    width = 872 / 8;
+                                }
+                                <div class="table-wrapper-overflow">
+                                    <table id="tableLandlordHome"
+                                           class="table table-condensed table-striped table-hover table-bold-header"
+                                           @*class="table bootstrap-table table-condensed table-striped table-hover table-bold-header"*@
+                                           data-toolbar="#toolbar"
+                                           data-row-style="importantHighlight">
+                                        <thead>
+                                            <tr class="row">
+                                                <th rowspan="2" data-field="Address" class="text-center" style="width: @Html.Raw(width + "px;")  min-width:@Html.Raw(width + "px;") height: 20px;">
+                                                    <div style="position: relative">
+                                                        <span>Property address</span>
+                                                        <a tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Property address" data-content="Property address">
+                                                            <span class="glyphicon glyphicon-question-sign info-popover"></span>
+                                                        </a>
+                                                    </div>
+                                                </th>
+                                                <th rowspan="2" data-field="AverageBill" style="width: @Html.Raw(width + "px;")  min-width:@Html.Raw(width + "px;") height: 40px;" data-halign="center" data-align="center" data-sorter="priceSorter">
+                                                    <div style="position: relative">
+                                                        <span>Average<br />bill</span>
+                                                        <br />
+                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Average bill" data-content="bill">
+                                                            <span class="glyphicon glyphicon-question-sign info-popover"></span>
+                                                        </a>
+                                                    </div>
+                                                </th>
+                                                <th rowspan="2" data-field="BilledTo" style="width: @Html.Raw(width + "px;")  min-width:@Html.Raw(width + "px;") height: 40px;" data-halign="center" data-align="center">
+                                                    <div style="position: relative">
+                                                        <br />
+                                                        <span>Currently<br />billed to</span>
+                                                        <br />
+                                                        <a @*style="position: absolute; top: 25%; right: 7px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Currently billed to" data-content="Indicates the">
+                                                            <span class="glyphicon glyphicon-question-sign info-popover"></span>
+                                                        </a>
+                                                    </div>
+                                                </th>
+                                                <th rowspan="2" data-field="ViewBill" style="width: @Html.Raw(width + "px;")  min-width:@Html.Raw(width + "px;") height: 40px;" data-halign="center" data-align="center">
+                                                    <div style="position: relative">
+                                                        <span>View<br />bill</span>
+                                                        <br />
+                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="View bill" data-content="Select">
+                                                            <span class="glyphicon glyphicon-question-sign info-popover"></span>
+                                                        </a>
+                                                    </div>
+
+                                                </th>
+                                                <th rowspan="2" data-field="AccountStatus" style="width: @Html.Raw(width + "px;")  min-width:@Html.Raw(width + "px;") height: 40px;" data-halign="center" data-align="center">
+                                                    <div style="position: relative">
+                                                        <span>Account<br />status</span>
+                                                        <br />
+                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Account status" data-content="A description ">
+                                                            <span class="glyphicon glyphicon-question-sign info-popover"></span>
+                                                        </a>
+                                                    </div>
+
+                                                </th>
+                                                <th rowspan="2" data-field="MeterInfo" style="width: @Html.Raw(width + "px;")  min-width:@Html.Raw(width + "px;") height: 40px;" data-halign="center" data-align="center">
+                                                    <div style="position: relative">
+                                                        <span>Meter<br />type/status</span>
+                                                        <br />
+                                                        <a @*style="position: absolute; top: 25%; right: 0px; top: 15px;"*@ tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Meter type/status" data-content="Shows meter type.">
+                                                            <span class="glyphicon glyphicon-question-sign info-popover"></span>
+                                                        </a>
+                                                    </div>
+
+                                                </th>
+                                                <th colspan="2" data-halign="center" data-align="center">
+                                                    <span>Leave on options</span>
+                                                    <a style="position: relative; top: 25%; right: 0;" tabindex="0" role="button" data-toggle="popover" data-container="body" data-trigger="hover click" title="Leave on options" data-content="">
+                                                        <span class="glyphicon glyphicon-question-sign info-popover"></span>
+                                                    </a>
+                                                </th>
+                                            </tr>
+                                            <tr class="row">
+                                                <th class="custom-border" data-field="Electric" id="that" data-halign="center" data-align="center">Electric</th>
+                                                <th class="custom-border" data-field="Gas" data-halign="center" data-align="center">Gas</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
